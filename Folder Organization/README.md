@@ -6,7 +6,7 @@ For example, let's say cssFiles = 2, jsFiles = 1, and readMeFiles = 2. The numbe
 
 Note: It is guaranteed that the answer always exists.
 
-Function Description
+### Function Description
 Complete the function minFolders in the editor below. The function must return an integer denoting the minimum number of folders required to organize the project.
 
 minFolders has the following parameter(s): 
@@ -15,19 +15,22 @@ jsFiles: an integer
 readMeFiles: an integer
 capacity: an integer
 
-Constraints
-0 ≤ cssFiles ≤ 105
-0 ≤ jsFiles ≤ 105
-0 ≤ readMeFiles ≤ 105 1 ≤ capacity ≤ 103
+### Constraints
+* 0 ≤ cssFiles ≤ 105
+* 0 ≤ jsFiles ≤ 105
+* 0 ≤ readMeFiles ≤ 105
+* 1 ≤ capacity ≤ 103
 
 
-Sample Input For Custom Testing
+### Sample Input For Custom Testing
 5 0 2 2
-Sample Output
+### Sample Output
 5
-Explanation
+### Explanation
 Here, there are 5 CSS files, 0 JS files, and 2 README files, where the maximum folder capacity is 2. The optimal solution requires 5 folders:
-1. 1 CSS file and 1 README file 2. 1 CSS file and 1 README file 3. 1 CSS file
+1. 1 CSS file and 1 README file 
+2. 1 CSS file and 1 README file
+3. 1 CSS file
 4. 1 CSS file
-5. 1 CSS file
+5. 1 CSS file  \
 Therefore, the answer is 5.
