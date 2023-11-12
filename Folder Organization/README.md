@@ -19,3 +19,15 @@ Constraints
 0 ≤ cssFiles ≤ 105
 0 ≤ jsFiles ≤ 105
 0 ≤ readMeFiles ≤ 105 1 ≤ capacity ≤ 103
+
+
+Sample Input For Custom Testing
+5 0 2 2
+Sample Output
+5
+Explanation
+Here, there are 5 CSS files, 0 JS files, and 2 README files, where the maximum folder capacity is 2. The optimal solution requires 5 folders:
+1. 1 CSS file and 1 README file 2. 1 CSS file and 1 README file 3. 1 CSS file
+4. 1 CSS file
+5. 1 CSS file
+Therefore, the answer is 5.
